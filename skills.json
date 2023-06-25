@@ -1,0 +1,6 @@
+{
+"Utilites": ["Git Bash", "Postman", "DevTools"],
+"Program_languages": ["Python", "SQL", "JS"],
+"Markup_languages": ["html", "css", "xml"],
+"Protocols":["http", "ip"]
+}

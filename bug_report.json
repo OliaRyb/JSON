@@ -1,1 +1,8 @@
-
+{ "id": "1",
+  "priority": "minor",
+  "title": "The block 'Education' didn't transleted on arabic language",
+  "steps": ["1. Navigate to capital.com"],["2. Choose arabic language"], ["3. Scroll to Block 'Education' "],
+  "expected result":"Block 'Education' is in arabic language",
+  "actual result":"Block 'Education' is in english language",
+  "bug started":"@volia_dreamer"
+}

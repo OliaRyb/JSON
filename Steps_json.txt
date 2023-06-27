@@ -30,6 +30,8 @@
 																			"Protocols":["http", "ip"]
 																		}
  15. Отправить сразу 2 файла на внешний репозиторий.				15. git add *.json
+																		git commit -m "Added new files with data"
+																		git push
  16. На веб интерфейсе создать файл bug_report.json.
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  18. На веб интерфейсе модифицировать файл bug_report.json, 		

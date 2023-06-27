@@ -1,0 +1,39 @@
+ 4. Создать внешний репозиторий c названием JSON.
+ 5. Клонировать репозиторий JSON на локальный компьютер. 			5. git clone git@github.com:OliaRyb/JSON.git
+																		cd json
+ 6. Внутри локального JSON создать файл “new.json”.					6. touch new.json
+ 7. Добавить файл под гит.											7. git add new.json
+ 8. Закоммитить файл.												8. git commit -m "Initial commit"
+ 9. Отправить файл на внешний GitHub репозиторий.					9. git push
+ 10. Отредактировать содержание файла “new.json” - написать 		10. cat > new.json
+			
+ информацию о себе (ФИО, возраст, количество домашних животных, 	{ 	"name": "Olia",
+ будущая желаемая зарплата). Всё написать в формате JSON.				"age": "27",
+																		"pets": "0","pets": "0",
+																		"pets": "0",
+																	}
+ 11. Отправить изменения на внешний репозиторий.					11. git commit	-m "Added personal data" -a 
+ 12. Создать файл preferences.json									12. touch preferences.json
+ 13. В файл preferences.json добавить информацию о своих 			13. cat > preferences.json
+ предпочтениях (Любимый фильм, любимый сериал, любимая еда, 		{ 	"fav_movie": "Marley and me",	
+ любимое время года, сторона которую хотели бы посетить) в 				"fav_series": "Castle",
+ формате JSON.															"fav_food": "Burgers",
+																		"fav_season": "Winter",
+																		"country_to_visit": "Tanzania"
+																	}
+ 14. Создать файл sklls.json добавить информацию о скиллах, 		14. touch skills.json
+ которые будут изучены на курсе в формате JSON.							cat > skills.json
+																		{
+																			"Utilities": ["Git Bash", "Postman", "DevTools"],
+																			"Program_languages": ["Python", "SQL", "JS"],
+																			"Markup_languages": ["html", "css", "xml"],
+																			"Protocols":["http", "ip"]
+																		}
+ 15. Отправить сразу 2 файла на внешний репозиторий.				15. git add *.json
+ 16. На веб интерфейсе создать файл bug_report.json.
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. На веб интерфейсе модифицировать файл bug_report.json, 		
+ добавить баг репорт в формате JSON.
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 20. Синхронизировать внешний и локальный репозиторий JSON.			20. git pull
+
